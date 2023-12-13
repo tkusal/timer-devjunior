@@ -1,0 +1,84 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  background-color: black;
+  color: white;
+  font-family: Arial, sans-serif;
+}
+
+#timer-container {
+  text-align: center;
+  position: relative;
+}
+
+#countdown {
+  font-size: 800%;
+  font-weight: bold;
+  margin-bottom: 20px;
+  max-width: 100%;
+}
+
+@media only screen and (max-width: 600px) {
+  #countdown {
+    font-size: 150%;
+  }
+}
+
+#audio-control {
+  position: fixed;
+  top: 10px;
+  right: 10px;
+  background-color: transparent;
+  border: none;
+  padding: 10px;
+  font-size: 1em;
+  cursor: pointer;
+  transition: color 0.3s ease-in-out;
+}
+
+#audio-control:hover {
+  color: lightgrey;
+}
+
+.logo {
+  font-family: Arial, sans-serif;
+  position: absolute;
+  top: 2vh;
+  left: 2vw;
+  text-align: center;
+  color: #0000FF;
+  font-size: 2vw;
+  font-weight: bold;
+  line-height: 0.6;
+}
+
+.face {
+  text-align: center;
+  font-size: 3vw;
+  color: #ffffff;
+}
+
+.olhod {
+  color: #4A87CE;
+}
+
+.olhos {
+  color: #4A87CE;
+}
+
+.sobrancelha {
+  color: #ffffff;
+}
+
+.dev {
+  color: #4A87CE;
+  font-size: 3vh;
+}
+
+.junior {
+  color: #ffffff;
+  font-size: 3vh;
+}
